@@ -1,0 +1,56 @@
+body{
+  margin: 10px;
+}
+#products  + p {
+color : orange;
+}
+
+article p:first-of-type{
+  font-size: 140%;
+  font-style: italic;
+}
+
+article p:last-of-type{
+font-weight: bold;
+}
+
+ul li:nth-child(even){
+color : deeppink
+}
+
+a:visited, 
+a:link{
+  color: dodgerblue
+}
+a:hover,
+a:focus{
+  color:deeppink
+}
+p::first-letter{
+  font-size: 140%;
+  font-weight: bold;
+}
+p::selection{
+  background-color: pink;
+}
+
+
+#products{
+  color: green;
+}
+
+.highlight{
+  color: deeppink;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  box-shadow: 0 0 30px grey;
+}
+
+h1{
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
